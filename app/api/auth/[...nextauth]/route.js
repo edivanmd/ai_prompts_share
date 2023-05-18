@@ -44,13 +44,3 @@ const handler = NextAuth({
 })
 
 export { handler as GET, handler as POST }
-
-    // async signIn(user, account, profile) {
-		// 	console.log('olaaaa')
-    //   console.log(user)
-		// 	return true
-		// },
-		// session(session, user) {
-		// 	console.log(session, 'session', user, 'user')
-		// 	return session
-		// },
